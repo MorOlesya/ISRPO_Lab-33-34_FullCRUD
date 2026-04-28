@@ -13,6 +13,7 @@
 
 ## Структура проекта 
 
+```
 Lab33-34_FullCRUD
 ├── img
 │   ├── gitPushLab33-34_Morozova.png
@@ -50,7 +51,7 @@ Lab33-34_FullCRUD
 ├── .editorconfig
 ├── Lab33-34_FullCRUD.sln
 └── README.md
-
+```
 ## Описание паттерна Repository
 
 **Repository** — это паттерн проектирования, который изолирует логику работы с данными от логики контроллера.
