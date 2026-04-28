@@ -8,7 +8,7 @@ public class ApiResponse<T> {
 
     public static ApiResponse<T> Ok(T data, string message = "Успешно") => new() { Success = true, Data = data, Message = message, StatusCode = 200 };
 
-    public static ApiResponse<T> Updated(T data, string message = "Создано успешно") => new() { Success = true, Data = data, Message = message, StatusCode = 201 };
+    public static ApiResponse<T> Created(T data, string message = "Создано успешно") => new() { Success = true, Data = data, Message = message, StatusCode = 201 };
 }
 
 
