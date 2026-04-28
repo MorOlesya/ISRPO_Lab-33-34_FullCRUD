@@ -7,7 +7,7 @@ public class CreateNoteDto {
     public string Title { get; set; } = string.Empty;
 
     [MaxLength(5000, ErrorMessage = "Максимум 5000 символов")]
-    public string Description { get; set; } = string.Empty;
+    public string Content { get; set; } = string.Empty;
 
     [Range(1, 5, ErrorMessage = "Приоритет должен быть от 1 до 5")]
     public int Priority { get; set; } = 3;
